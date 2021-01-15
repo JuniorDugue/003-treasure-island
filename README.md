@@ -1,9 +1,18 @@
 # 003-treasure-island
 
-#### Comparison Operators
+_table of contents_
+- [Comparison Operators](#comparisonoperators)
+- [Modulo Operation](#modulo)
+- [Nested if and elif statements](#nestedifelif)
+
+
+---
+
+#### [Comparison Operators]()
 ![](/assets/comparison_operators.jpg)
 
 *one equal sign is assigning*
+
 *two equal signs is check equality*
 
 ```
@@ -41,4 +50,13 @@ else:
 
   ----
 
-  
+  #### [Modulo Operation](modulo)
+  #### %
+
+  e.g. 7 % 2
+  > 1
+  * 2 + 2 + 2 + 1
+
+----
+
+#### [Nested if and elif statements]()
