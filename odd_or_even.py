@@ -12,4 +12,15 @@
 
 # The modulo is written as a percentage sign (%) in Python. It gives you the remainder after a division.
 
+question = input("which number do you want to check? ")
 
+math = int(question) % 2
+odd_number = 1
+even_number = 0
+
+if math == odd_number:
+  print("this is an odd number")
+elif math == even_number:
+  print("this is an even number")
+else:
+  print("i'm not sure")
