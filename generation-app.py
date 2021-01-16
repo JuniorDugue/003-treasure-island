@@ -49,9 +49,6 @@ year_of_birth = input("To get started, enter your year of birth to see what gene
 
 year_of_birth = int(year_of_birth)
 
-output = f"According to our calculations, since you were born in {year_of_birth}"
-# you're apart of the {} who all were born between the dates {}"
-
 if year_of_birth > 2025:
   print("generation alpha")
 elif year_of_birth >= 2013:
@@ -64,5 +61,17 @@ elif year_of_birth >= 1996:
   print("millennial")
 elif year_of_birth >= 1981:
   print("millennial")
+elif year_of_birth >= 1980:
+  print("generation x")
+elif year_of_birth >= 1965:
+  print("generation x")
+elif year_of_birth >= 1964:
+  print("baby boomer")
+elif year_of_birth >= 1946:
+  print("baby boomer")
+elif year_of_birth >= 1945:
+  print("silent generation")
+elif year_of_birth >= 1928:
+  print("silent generation")
 else:
   print("sorry, i'm not sure")
